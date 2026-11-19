@@ -1,0 +1,4 @@
+M,floor_div_dB,floor_corr_dB,peak_to_floor_div_dB,peak_to_floor_corr_dB,theory_div_loss_dB,theory_corr_floor_dB
+4,0.00451613,0.00451613,69.6019,69.6019,9.64327e-16,0
+16,2.76035,15.2336,66.8481,54.3549,2.77934,15.1989
+64,4.29952,15.9423,65.3068,53.668,4.30291,15.9216

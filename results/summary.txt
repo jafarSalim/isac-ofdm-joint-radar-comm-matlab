@@ -1,0 +1,15 @@
+Frame: 1024 subcarriers x 256 symbols, 120.0 kHz, B = 122.88 MHz, 2.28 ms
+Resolution 1.22 m, 2.34 m/s; CP range 87.8 m; max velocity 300 m/s
+Scene (found per target, false alarms) [case so wall car ped truck cyclist false floor]:
+[1 0 1 1 1 1 0 0 1.13;1 1 1 1 1 1 1 6 1.13;2 0 1 1 0 1 0 0 55.9;2 1 1 1 0 1 0 0 55.9]
+Accuracy: RMSE/CRB above -35 dB: range 1.02, velocity 0.99; outliers < 5% from -40 dB; RMSE at -20 dB: 0.00913 m, 0.0167 m/s
+Modulation [floor div, floor corr, PFR div, PFR corr, theory div, theory corr] dB:
+[0.00452 0.00452 69.6 69.6 9.64e-16 0;2.76 15.2 66.8 54.4 2.78 15.2;4.3 15.9 65.3 53.7 4.3 15.9]
+SNR for BER 1e-3 (QPSK, 16, 64): [10 17 23] dB; rates [0.23 0.459 0.689] Gb/s
+Beamforming, user rate with the target at -3 dB [60 deg, 5 deg]: Pareto [4.1 4.53], power split [4.09 4.45], weighted sum [4.1 4.44] bit/s/Hz; full beam 5.04
+Sensing kept at 90% rate vs separation [1 2 3 4 6 8 10 15 20 40 60]: [-9.64e-16 -0.436 -2.38 -4.86 -3.01 -4.66 -3.87 -5.16 -4.48 -5.05 -5.11] dB
+Detection: SNR for Pd 0.9 theory/CA/SO [11.8 11.8 11.6] dB; measured Pfa [0.000129 0.000271]; required SNR (Pd .9, Pfa 1e-6) 13.19 dB
+Detection range [ped cyc car truck] x [20 30 40 dBm]:
+[478.2 850.4 1512;568.7 1011 1798;1011 1798 3198;1798 3198 5687]
+CP: peak-to-interference [73.7 73.7 73.7 73.7 73.7 66.7 62.3 59.4 57 54.9 53.2 51.7] dB at [20 40 60 80 88 95 110 130 160 200 250 300] m
+Run time: 296 s

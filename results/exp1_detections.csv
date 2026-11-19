@@ -1,0 +1,5 @@
+case,so_cfar,found_wall,found_car,found_pedestrian,found_truck,found_cyclist,false_alarms,median_floor_dB
+1,0,1,1,1,1,0,0,1.1328
+1,1,1,1,1,1,1,6,1.1328
+2,0,1,1,0,1,0,0,55.8642
+2,1,1,1,0,1,0,0,55.8642
